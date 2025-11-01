@@ -6,6 +6,7 @@ const (
 	TypeBool   = "bool"
 	TypeText   = "text"
 	TypeNumber = "number"
+	Compress   = "component"
 )
 
 const (
@@ -38,6 +39,8 @@ const (
 	SharePreviewArchivesByDefault = "share_preview_archives_by_default"
 	ReadMeAutoRender              = "readme_autorender"
 	FilterReadMeScripts           = "filter_readme_scripts"
+	OfficeTypes                   = "office_types"
+	CompressTypes                 = "compress_types"
 
 	// global
 	HideFiles               = "hide_files"
@@ -157,12 +160,22 @@ const (
 
 const (
 	UNKNOWN = iota
+	// 文件夹
 	FOLDER
-	// OFFICE
+	// office文件
+	OFFICE
+	// 视频
 	VIDEO
+	// 音频
 	AUDIO
+	// 文本
 	TEXT
+	// 图片
 	IMAGE
+	// 压缩文件
+	COMPRESS
+	// 镜像
+	IMAGES
 )
 
 // ContextKey is the type of context keys.

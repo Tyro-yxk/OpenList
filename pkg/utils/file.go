@@ -153,6 +153,12 @@ func GetFileType(filename string) int {
 	if SliceContains(conf.SlicesMap[conf.TextTypes], ext) {
 		return conf.TEXT
 	}
+	if SliceContains(conf.SlicesMap[conf.OfficeTypes], ext) {
+		return conf.OFFICE
+	}
+	if SliceContains(conf.SlicesMap[conf.CompressTypes], ext) {
+		return conf.COMPRESS
+	}
 	return conf.UNKNOWN
 }
 

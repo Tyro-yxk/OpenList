@@ -1,0 +1,1 @@
+import{d$ as r,C as n,ao as a,cY as o,a3 as c,an as s}from"./index-J7bKldot.js";const u=()=>{const[e]=r();return n(s,{get loading(){return e.loading},get children(){return n(a,{get children(){var t;return(t=e())==null?void 0:t.content},get ext(){return o(c.obj.name)},toc:!0})}})};export{u as default};

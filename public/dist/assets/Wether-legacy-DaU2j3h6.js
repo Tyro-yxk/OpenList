@@ -1,0 +1,1 @@
+System.register(["./index-legacy-CEiNF2du.js"],function(e,r){"use strict";var t,s,n;return{setters:[e=>{t=e.C,s=e.l,n=e.cB}],execute:function(){e("W",e=>{const r=s();return t(n,{get colorScheme(){return e.yes?"success":"danger"},get children(){return r("global."+(e.yes?"yes":"no"))}})})}}});
